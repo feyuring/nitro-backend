@@ -1,0 +1,20 @@
+{
+  "name": "nitro-backend",
+  "private": true,
+  "scripts": {
+    "dev": "nitro dev",
+    "build": "nitro build",
+    "start": "nitro start"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2",
+    "bcrypt": "^5",
+    "jsonwebtoken": "^9",
+    "nitropack": "^2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5",
+    "@types/jsonwebtoken": "^9",
+    "typescript": "^5"
+  }
+}
